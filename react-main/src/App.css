@@ -1,0 +1,111 @@
+.App {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  /* text-align: center; */
+}
+
+.App h3 {
+  text-align: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.userCard {
+  margin: 10px;
+  padding: 10px;
+}
+
+.card {
+  width: 30%;
+  margin: 10px 20px;
+  border: 3px solid rgba(0, 0, 0, .125);
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  opacity: 0.7;
+  transition: all 0.5s linear;
+  display: inline-block;
+}
+
+.card:hover {
+  opacity: 1;
+  border: 3px solid black;
+}
+
+.card h4 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 18px;
+  ;
+}
+
+.card p {
+  text-align: justify;
+  font-size: 13px;
+  color: #666;
+  transition: all 0.5s linear;
+  padding: 10px;
+}
+
+.noPadding {
+  text-align: justify;
+  font-size: 13px;
+  color: #666;
+  transition: all 0.5s linear;
+  padding: 2px 10px !important;
+  margin: 2px 0px !important;
+}
+
+.card:hover p {
+  color: black;
+}
+
+.card .button {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: -15px;
+}
+
+.card .button button {
+  font-size: 16px;
+  border-radius: 10px;
+  background: #e84444;
+  color: white;
+  padding: 5px;
+  border: 2px solid #e84444;
+  outline: 0;
+}
+
+.btnAlignment {
+  background-color: blue;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+.centerAlingment {
+  text-align: center;
+}
+.headerDesign{
+  background-color: red;
+  padding: 10px;
+  color: white;
+}
